@@ -1,8 +1,4 @@
 .fullscreen {
-    background-image: url('/images/ai_image.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,6 +6,16 @@
     justify-content: center;
     color: #001F54;
     text-align: center;
+    overflow: hidden;
+}
+
+.fullscreen img{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
 }
 
 .learn_more{
