@@ -1,0 +1,38 @@
+.fullscreen {
+    background-image: url('/images/ai_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #001F54;
+    text-align: center;
+}
+
+.learn_more{
+    background-color: #001F54;
+    border-radius: 5px;
+    width: 110px;
+    height: 42px;
+}
+
+button a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.learn_more:hover{
+    background-color: #a6c1ee;
+    border: none;
+    width: 110px;
+    height: 42px;
+}
+
+.learn_more:hover a{
+    color: black;
+}

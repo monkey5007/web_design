@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar {
+    height: 50px;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar ul li a.active{
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover:not(.active) {
+    background: #8d8d8d;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}

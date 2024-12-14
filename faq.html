@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - AI의 미래</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/faq_style.css">
+    <link rel="icon" href="./images/ai_icon.png">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">홈</a></li>
+            <li><a href="present.html">AI의 현재</a></li>
+            <li><a href="topic.html">AI의 주제</a></li>
+            <li><a href="media.html">미디어</a></li>
+            <li><a href="faq.html" class="active">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <section class="faq_section">
+        <h1>자주 묻는 질문 (FAQ)</h1>
+
+        <div class="faq">
+            <p>인공지능(AI)이란 무엇인가? </p>
+            <div class="ans">
+                <p>
+                    인공지능은 일반적으로 인간 지능이 필요하거나 인간이 분석할 수 있는 범위를 벗어난 대규모 데이터를 포함하는 방식으로 추론, 학습 및 행동할 수 있는 컴퓨터와 머신을 빌드하는 과학 분야입니다. AI는 컴퓨터 공학, 데이터 분석 및 통계, 하드웨어 및 소프트웨어 엔지니어링, 언어학, 신경 과학은 물론 철학과 심리학 등 다양한 학문을 포괄하는 광범위한 분야입니다.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <p>AI는 어느 분야에서 사용되나요?</p>
+            <div class="ans">
+                <p>금융, 교육, 의료에서 주로 사용됩니다.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <p>AI의 미래는 어떤 모습일까요?</p>
+            <div class="ans">
+                <p>
+                    AI의 미래는 인간의 삶을 더욱 편리하고 풍요롭게 만드는 방향으로 발전할 가능성이 큽니다. 자율주행차, 개인화된 의료, 스마트 도시, 고도화된 로봇 공학 등 다양한 분야에서 AI는 핵심 기술로 자리잡을 것입니다. 또한, 인간과의 협업을 통해 복잡한 문제를 해결하고, 창의적인 작업에서도 중요한 역할을 할 것으로 기대됩니다. 그러나 동시에 윤리적 문제, 개인정보 보호, 일자리 변화 등과 같은 도전 과제도 함께 해결해야 할 필요가 있습니다.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <h2 class="title">질문: </h2>
+        <form>
+            <label for="name">이름:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+
+            <label for="phone">전화번호:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="010-0000-0000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required><br><br>
+
+            <label for="question">질문:</label><br>
+            <textarea name="question" id="question" placeholder="질문하세요" rows="5" cols="60" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&#169; 이준혁</p>
+    </footer>
+</body>
+</html>

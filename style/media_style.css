@@ -1,0 +1,16 @@
+iframe {
+    border: none;
+    margin: 20px auto;
+    display: block;
+}
+
+@media (max-width: 1300px){
+    iframe{
+        width: 640px;
+        height: 480px;
+    }
+}
+
+.title{
+    text-align: center;
+}
